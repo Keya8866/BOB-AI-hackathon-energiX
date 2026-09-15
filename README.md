@@ -10,8 +10,8 @@
 |---|---|
 | **Team Name** | energiX |
 | **Track** |Sustainability |
-| **Team Lead** | Keya Dave — 24ee006@charusat.edu.in |
-| **Members** | Mohit Brahmbhatt, Vedant Dave, Mayank Shukal |
+| **Team Lead** | Mayank Shukal — 25it094@charusat.edu.in |
+| **Members** | Mohit Brahmbhatt, Vedant Dave, Keya Dave |
 
 ---
 
