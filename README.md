@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 GridGuard AI
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | energiX |
+| **Track** |Sustainability |
+| **Team Lead** | Keya Dave — 24ee006@charusat.edu.in |
+| **Members** | Mohit Brahmbhatt, Vedant Dave, Mayank Shukal |
 
 ---
 
@@ -19,7 +19,8 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Power transformer and substation failures cause blackouts costing utilities $1M+/hour
+and affecting millions of people. Most utilities still use calendar-based maintenance.
 
 ---
 
@@ -27,47 +28,51 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+GridGuard AI prevents failures before they happen. It combines sensor data, weather data and historical incident reports to predict outage-prone areas. It estimates grid impact and recommends necessary actions to be taken.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** Transformer health score
+- **Feature 2:** Failure prediction
+- **Feature 3:** weather + equipment AI
+- **Feature 4:** Grid impact score
+- **Feature 5:** Maintenance recommendation
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
-|---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+|sustainability|AI|
+| **Languages** | python |
+| **Frameworks** | React, Streamlit |
+| **IBM Technologies** | IBM Bob, IBM cloud |
+| **Databases** | PostgreSQL |
+| **Other** | GitHub Actions |
 
 ---
 
 ## 📁 Repository Structure
 
-```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
-```
+
+gridguard-ai/
+│
+├── app/            # Backend + AI/ML logic
+├── dashboard/      # Frontend / monitoring dashboard
+├── models/         # Trained ML models
+├── data/           # Dataset & sensor data
+├── notebooks/      # ML experimentation
+├── scripts/        # Data generation & training scripts
+├── tests/          # Testing
+├── docs/            # Architecture & documentation
+│
+├── requirements.txt
+├── .env.example
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
 
 ---
 
